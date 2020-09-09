@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: facades.FacadeExampleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.087 s <<< FAILURE! - in facades.FacadeExampleTest
+facades.FacadeExampleTest  Time elapsed: 2.085 s  <<< ERROR!
+javax.persistence.PersistenceException: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: Access denied for user 'dev'@'localhost' (using password: YES)
+Error Code: 1045
+	at facades.FacadeExampleTest.setUpClass(FacadeExampleTest.java:26)
+Caused by: org.eclipse.persistence.exceptions.DatabaseException: 
+
+Internal Exception: java.sql.SQLException: Access denied for user 'dev'@'localhost' (using password: YES)
+Error Code: 1045
+	at facades.FacadeExampleTest.setUpClass(FacadeExampleTest.java:26)
+Caused by: java.sql.SQLException: Access denied for user 'dev'@'localhost' (using password: YES)
+	at facades.FacadeExampleTest.setUpClass(FacadeExampleTest.java:26)
+
