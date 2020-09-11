@@ -16,7 +16,7 @@
         <!-- TODO: Add the URL to your own tomcat server. Used to deploy your WAR-file -->
         <!-- IMPORTANT-1: If your server uses https (via NGINX) use your DOMAIN NAME and https below: -->
         <!-- IMPORTANT-2: Observe we are NOT using /manager/html but /manager/text for script uploads --> 
-        <remote.server>https://greatslav.me/manager/text</remote.server>
+        <remote.server>http://greatslav.me/manager/text</remote.server>
         
     </properties>
     
@@ -135,8 +135,8 @@
                 <configuration>          
                     <server>TomcatServer</server>
                     <url>${remote.server}</url>
-                    <username>${dev}</username>
-                    <password>${klon3903202}</password>
+                    <username>dev</username>
+                    <password>klon3903202</password>
                     <update>true</update>    
                 </configuration>  
             </plugin>          
