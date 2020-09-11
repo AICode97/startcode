@@ -1,8 +1,8 @@
-rest\RenameMeResource.class
 rest\TestResource.class
 facades\MovieFacade.class
+entities\ghy636765\Movies_.class
+entities\Movies.class
 rest\ApplicationConfig.class
-entities\ghy636765\Movie_.class
-entities\Movie.class
+rest\MoviesResource.class
+entities\xx345y657\Movies_.class
 utils\EMF_Creator.class
-entities\xx345y657\Movie_.class

@@ -1,2 +1,1 @@
-facades\FacadeExampleTest.class
-rest\RenameMeResourceTest.class
+rest\MovieResourceTest.class
